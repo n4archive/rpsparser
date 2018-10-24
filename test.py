@@ -1,6 +1,6 @@
 import rpsparser,json
 o=None
-with open("/sdcard/Documents/RoboProSmart/v.xml") as x:
+with open("test.xml") as x:
     o=rpsparser.parse(x.read())
 print(json.dumps(o))
 class Test:
